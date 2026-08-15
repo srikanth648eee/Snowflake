@@ -11,7 +11,7 @@ SELECT CURRENT_WAREHOUSE(), CURRENT_DATABASE(), CURRENT_SCHEMA();
 SHOW WAREHOUSES;
 
 -- 3. Sample table creation (safe to run in a sandbox/dev schema)
-CREATE OR REPLACE TABLE sample_orders (
+CREATE OR REPLACE TABLE sample_orders143 (
     order_id     INT,
     customer_id  INT,
     order_date   DATE,
